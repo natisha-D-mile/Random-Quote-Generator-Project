@@ -1,0 +1,94 @@
+/* GOOGLE FONTS*/    /*use bai jamjuree or poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #f5f5f5;
+    background-image:url(background-img/scientists_bg.png);
+    background-position:0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#quote-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#quote-img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 10px;
+}
+
+#quote {
+    font-size: 18px;
+    color: #555;
+}
+
+#new-quote-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0056b3;;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new-quote-btn:hover {
+    background-color: #08abc4;
+}
+
+ #hero-image{
+            background-color: #fff;
+            padding: 24px;
+            border-radius: 20px;
+            color: #022a30;
+            opacity: 0.85;
+            position: relative;
+            
+            display: flex;
+      justify-content: center; /* Adjust  */
+      align-items: center; /* Adjust  */
+    }
+
+    .hero-image p {
+      margin: 0; /* Adjust */
+    }
+#home{
+    /* background-image: url(../images/scientists_bg); */
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes myname-animation {
+      0% { color: black; }
+      50% { color: #08abc4; }
+      100% { color: black; }
+    }
+
+    .animated-word {
+      animation: myname-animation 2s infinite; 
+    }
